@@ -1,0 +1,12 @@
+INT (?:[+-]?(?:[0-9]+))
+TIME (%{MINUTE})(?::%{SECOND})
+WORD \b\w+\b
+USERNAME [^,.'"]*
+DURATION [0-9]*
+TTM [0-9]{8}
+TEXTONLY [a-zA-Z]*
+REGION \w*.?\w*
+INSIDEQUOTES ([^"']*)
+NESTING [0-9]
+MINUTE (?:[0-5][0-9])
+
